@@ -1,0 +1,414 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The English prelates practizing the methods and rules of the Jesuits, for enervating and altering the Protestant reformed religion in England, and reducing the people to popery plainly demonstrated by a reverend and godly divine.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1661</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 45 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38476</idno>
+            <idno type="STC">Wing E3111</idno>
+            <idno type="STC">ESTC R31433</idno>
+            <idno type="EEBO-CITATION">11977871</idno>
+            <idno type="OCLC">ocm 11977871</idno>
+            <idno type="VID">51805</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A38476)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51805)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1007:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The English prelates practizing the methods and rules of the Jesuits, for enervating and altering the Protestant reformed religion in England, and reducing the people to popery plainly demonstrated by a reverend and godly divine.</title>
+               </titleStmt>
+               <extent>[2], 17 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1661.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication suggested by Wing and NUC pre-1956 imprints.</note>
+                  <note>Imperfect: print show-through.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jesuits --  Controversial literature.</term>
+               <term>Protestants --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:51805:1"/>
+            <pb facs="tcp:51805:1" rendition="simple:additions"/>
+            <p>THE Engliſh Prelates Practizing the Methods and RULES OF THE JESUITS, FOR Enervating and altering the <hi>Proteſtant</hi> Reformed Religion in ENGLAND; and Reducing the People to POPERY.</p>
+            <p>Plainly Demonſtrated by a Reverend and godly Divine.</p>
+            <q>
+               <p>Take heed to thy ſelf, that thou bee not ſnared by following them, after that they bee deſtroyed from before thee, and that thou inquire not after their gods; ſaying, how did theſe Nations ſerve their gods? Even ſo will I do likewiſe,</p>
+               <bibl>
+                  <hi>Deut.</hi> 12.30.</bibl>
+            </q>
+            <q>
+               <p>Though thou <hi>Iſrael</hi> play the Harlot, yet let not <hi>Judah</hi> offend, and come not yee unto <hi>Gilgal,</hi> neither go yee up to <hi>Bethaven, &amp;c.</hi>
+               </p>
+               <bibl>
+                  <hi>Hoſ.</hi> 4.15.</bibl>
+            </q>
+            <figure>
+               <figDesc>papal crown, topped with a crescent</figDesc>
+            </figure>
+            <p>Printed in the Year. 1661.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:51805:2"/>
+            <pb n="1" facs="tcp:51805:2"/>
+            <head>The Engliſh Prelates practiſing the Me<g ref="char:EOLhyphen"/>thods <hi>and Rules</hi> of the <hi>Jeſuits,</hi> for enerva<g ref="char:EOLhyphen"/>ting and altering the <hi>Proteſtant</hi> reformed Religion in <hi>England,</hi> and reducing the peo<g ref="char:EOLhyphen"/>ple to Popery.</head>
+            <p>Queſt. <hi>HOw doth it appear that the</hi> Engliſh Prelates <hi>do deſign the alteration of</hi> Religion <hi>amongſt us here in</hi> England?</p>
+            <p>
+               <hi>Anſw.</hi> As face anſwers to face in a <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſo the practices of the <hi>Prelates</hi> in <hi>England</hi> do ſymbo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> with the <hi>Rules</hi> and methods of the <hi>Jeſuits,</hi> who hope to accompliſh that by <hi>ſleight</hi> of hand, which they cannot effect by force and down-right <hi>Blows.</hi>
+            </p>
+            <p>
+               <hi>Adam Contzen</hi> a Jeſuit of <hi>Mentz,</hi> and a great <hi>Politician,</hi>
+               <note place="margin">Contzen Politie. lib. <hi>2.</hi> cap. <hi>18.</hi>
+               </note> in his ſecond Book of <hi>Politicks,</hi> hath laid a <hi>Plot</hi> for the cheating of a people of the true <hi>reformed Religion</hi> (which ſhould bee dearer to them than ten thouſand worlds) by ſleight of hand, and the ſerving in of <hi>Popery</hi> again upon them, by art of <hi>Le<g ref="char:EOLhyphen"/>gerdemaine;</hi> that they ſhall <hi>neither know nor ſee who hurts them,</hi> till they be utterly ruined, <hi>Neh.</hi> 4.11.</p>
+            <p>The <hi>Method</hi> for accompliſhing of this (which certainly is one of <hi>Satans</hi> methods) he laies down in certain <hi>Rules</hi> in his ſore-mentioned Book of <hi>Politicks.</hi> Let <hi>Engliſh-men</hi> and <hi>Pro<g ref="char:EOLhyphen"/>teſtants</hi> obſerve how exactly, the late and preſent <hi>Prelates</hi> of <hi>England,</hi> have moved and acted according to thoſe <hi>Rules,</hi> and then judge of their deſigns.</p>
+            <div n="1" type="rule">
+               <head>I. <hi>Rule.</hi>
+               </head>
+               <p>The <hi>Jeſuits</hi> firſt <hi>Rule</hi> is this; <hi>To proceed as Muſicians</hi> Do, <hi>in tuning their Inſtruments; who proceed gradually, ſtraining their ſtrings with a gentle hand, and ſetting them up by little and little.</hi> Or as <hi>Phyſicians do in curing diſeaſes, who abate noxious humours by degrees and pauſes.</hi>
+               </p>
+               <pb n="2" facs="tcp:51805:3"/>
+               <p>This <hi>Rule</hi> hath been diligently obſerved and practiſed a<g ref="char:EOLhyphen"/>mongſt us both for the <hi>deſtructive</hi> and <hi>adſtructive</hi> way; for the <hi>deſtruction</hi> of the true Religion, and the advancing of the <hi>falſe,</hi> The Engliſh <hi>Prelates</hi> (though ſome of them are more violent and hot-headed than others) have learned this <hi>poli<g ref="char:EOLhyphen"/>cy,</hi> to proceed by <hi>degrees</hi> and pauſes.</p>
+               <p n="1">1. And <hi>firſt</hi> for the <hi>Destruction</hi> of the true <hi>Religion,</hi> and cating out the vitals and power of godlineſs, though that be their great deſign, yet as to the <hi>execution</hi> of it, they muſt go <hi>warily</hi> and gradually to work: It would make too great a <hi>noiſe</hi> (now that ſo much Goſpel-light is broke forth) to ſu<g ref="char:EOLhyphen"/>ſpend all the Orthodox <hi>Powerful Preachers</hi> in the <hi>Land</hi> at once; and therefore they will proceed by <hi>degrees;</hi> And <hi>firſt</hi> ſuſpend all <hi>Lecturers,</hi> who boggle at the <hi>Service-book,</hi> and P<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <hi>Ceremonies,</hi> then after a little <hi>pauſe,</hi> put down all <hi>Lect<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                        <desc>…</desc>
+                     </gap>
+                  </hi> as an order of Vagrants, not to be tolerated in the Chu<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>. (Some of our <hi>zealous Biſhops</hi> have already preſumed to ſup<g ref="char:EOLhyphen"/>preſs divers <hi>choice</hi> profitable <hi>Lectures</hi>) When this is done; they will forbid all faithful <hi>Miniſters</hi> to preach in their own Pa<g ref="char:EOLhyphen"/>riſh-<hi>Churches</hi> upon week-daies (the <hi>Jeſuits</hi> and <hi>Prelates</hi> be<g ref="char:EOLhyphen"/>ing both bitter enemies to ſound and <hi>powerful Preaching</hi>) Next, they will <hi>inhibit</hi> Preaching upon the <hi>Lords Day</hi> in the afternoon under pretence of advancing <hi>Catechizing</hi> by that means, and yet within a little while after, all <hi>Catechiſtical</hi> ex<g ref="char:EOLhyphen"/>poſition ſhall bee inhibited by theſe <hi>Soul-deſtroyers,</hi> and able men tyed to the bare words of the <hi>Primmer-Catechiſm.</hi> Nay, have they not forbidden all praying, ſave in the words of the <hi>Canon?</hi> and are they not of the ſame ſpirit ſtill? to wit, ene<g ref="char:EOLhyphen"/>mies to the <hi>Spirit</hi> of God, both in <hi>Preaching</hi> and <hi>Prayer?</hi> What can any ingenious man think the deſign of all this ſhould be, but to rob us of true <hi>Evangelical</hi> Preaching and Praying? and thereby at length of the <hi>Goſpel</hi> and True Re<g ref="char:EOLhyphen"/>ligion? Onely theſe men will do it by degrees for fear of <hi>noiſe</hi> and Tumult; they will do it ſo, <hi>as we ſhall neither know nor ſee.</hi>
+               </p>
+               <p n="2">2. And then for the <hi>Adſtructive</hi> way, the Rebuilding of the <hi>Romiſh Babel</hi> among us; do they not proceed by the ſame ſteps, as if the <hi>Jeſuits</hi> and they were animated by one ſoul?</p>
+               <pb n="3" facs="tcp:51805:3"/>
+               <p>
+                  <hi>Firſt,</hi> They rigidly urge the practice of the old <hi>Cere<g ref="char:EOLhyphen"/>monies,</hi> beyond the intention either of <hi>Law</hi> or <hi>Canon;</hi> yea, they bring in an <hi>Idolatrous</hi> fardel of new <hi>Popiſh Superſtitions,</hi> without warrant either of <hi>Law</hi> or <hi>Canon,</hi> but their own pa<g ref="char:EOLhyphen"/>per <hi>Injunctions,</hi> impoſing them on Miniſters and People, but yet by pauſes and <hi>degrees.</hi>
+               </p>
+               <p>The <hi>Communion-Table</hi> muſt be <hi>firſt</hi> railed in.</p>
+               <p>Soon after it muſt be ſet in an <hi>Altar</hi>-poſture.</p>
+               <p>Then all muſt be <hi>compelled</hi> to come and kneel before it, or not receive the <hi>Sacrament.</hi>
+               </p>
+               <p>Then it muſt be cried up as the <hi>Sanctum Sanctorum,</hi> the place of Gods chief <hi>reſidence</hi> upon earth; the ſeat and throne of Gods <hi>Majesty.</hi>
+               </p>
+               <p>And upon this <hi>Conſideration,</hi> all mens faces in <hi>prayer</hi> muſt be turned towards it. <hi>Men may, yea muſt,</hi> (ſay ſome) <hi>adore and bow before it, &amp;c.</hi>
+               </p>
+               <p>What (I pray you) ſhould the deſign of all this bee, but after the <hi>Altar,</hi> to bring in the <hi>Popiſh Sacrifice,</hi> and with their <hi>woodden</hi> worſhip the <hi>Breaden God?</hi> Onely they will do it by <hi>degrees.</hi> They will <hi>reconcile</hi> us to <hi>Rome</hi> by <hi>degrees,</hi> and in a cunning way, that <hi>wee may neither know nor ſee.</hi>
+               </p>
+               <p>
+                  <hi>Secondly,</hi> I may further <hi>add</hi> their making null and void the <hi>Ordination</hi> of ſo many godly <hi>Miniſters</hi> (who were or<g ref="char:EOLhyphen"/>dained by <hi>Presbyters</hi> alone, without a <hi>Dioceſſan Biſhop</hi>) and their aſcribing more <hi>virtue</hi> to the <hi>Popiſh</hi> Antichriſtian <hi>Orders</hi> of the <hi>Church</hi> of <hi>Rome,</hi> than to <hi>Ordination</hi> by Proteſtant <hi>Presbyters;</hi> for Popiſh <hi>Prieſts,</hi> when they turn <hi>Protestants,</hi> are not <hi>re-ordained.</hi> By this means our <hi>Engliſh Prelates</hi> do undermine and <hi>ſupplant</hi> all the <hi>reformed</hi> Churches in <hi>France, Holland, Scotland, &amp;c.</hi> where they have no <hi>Dioceſſan Biſhops</hi> to ordain <hi>Miniſters,</hi> and if their <hi>Miniſters</hi> bee not <hi>lawfully</hi> called, then they have no true <hi>Churches, Baptiſm, Ordinan<g ref="char:EOLhyphen"/>ces, &amp;c.</hi> And will not this (think you) <hi>contribute</hi> much to the rebuilding of <hi>Babel</hi> amongſt us, and reconciling of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> to <hi>Rome?</hi> whither (at length) men will be forced to go for a lawful <hi>Ordination</hi> (according to theſe mens Popiſh principles and practices) for if <hi>Ordination</hi> by Presbyters,
+<pb n="4" facs="tcp:51805:4"/>
+                  <hi>qua Presbyters</hi> be held unlawful (which yet the moſt learn<g ref="char:EOLhyphen"/>ed and judicious of the <hi>Protestant Biſhops</hi> have proved to be lawful, and therefore not to be <hi>iterated</hi>) then we muſt have recourſe to the <hi>Pope</hi> and Church of <hi>Rome</hi> (for a lawful or<g ref="char:EOLhyphen"/>dination) from whom, as from the fountain our <hi>Lordly Dio<g ref="char:EOLhyphen"/>ceſſans</hi> derive their exorbitant <hi>Eccleſiaſtical</hi> Power and Ju<g ref="char:EOLhyphen"/>riſdiction over the Miniſters and Flock of Chriſt, and not from the Scriptures, nor the <hi>Church</hi> of Chriſt.</p>
+               <p>
+                  <hi>Again,</hi> as the <hi>Prelates</hi> have practiſed the <hi>Jeſuits</hi> Rule (for altering Religion) in Diſcipline and <hi>Ceremonies,</hi> ſo they have likewiſe obſerved it in <hi>Doctrine. Firſt,</hi> they will bring in the <hi>Arminian</hi> Doctrine, and the <hi>Caſſandrian-Grotian</hi> Di<g ref="char:EOLhyphen"/>vinity, and then they know that down-right <hi>Popiſh</hi> Doctrine will eaſily follow. Let the Serpent but winde in his head, he will ſoon work in his whole body: Let <hi>Arminianiſm</hi> but obtain Countenance and Licence in the Kingdome, our <hi>Univerſities, Schools, Pulpits, Preſſes,</hi> will ſoon be filled with <hi>Popiſh</hi> Doctrines. Witneſs the publiſhing of ſo many points of <hi>Popery</hi> one after another, eſpecially thoſe <hi>two</hi> (which you may frequently meet with in the Books of Dr. <hi>Hammond,</hi> Dr. <hi>Bramhall</hi> now Primate of <hi>Ireland,</hi> and Dr. <hi>Jeremy Tay<g ref="char:EOLhyphen"/>ler,</hi> now a Biſhop in that <hi>Kingdome,</hi> and of other <hi>High</hi> Prelatiſts) namely, <hi>That the Pope is not Antichriſt.</hi> And that <hi>the Church of Rome</hi> is a true <hi>Viſible Church. Altae ſic ſurgunt maenia Romae.</hi> Thus according to the <hi>Rule</hi> of their Maſters the <hi>Jeſuits,</hi> they ſeek to re-eſtabliſh <hi>Rome</hi> by de<g ref="char:EOLhyphen"/>grees here in <hi>England,</hi> and to do it ſo as wee may <hi>not know nor ſee.</hi> So much for <hi>Contz<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ns</hi> firſt Rule.</p>
+            </div>
+            <div n="2" type="rule">
+               <head>II. <hi>Rule propounded by the Jeſuit.</hi>
+               </head>
+               <p>His ſecond <hi>Rule</hi> is this, <hi>To preſs the examples and practiſes of ſome</hi> eminent men, <hi>as a good means to draw on the reſt.</hi>
+               </p>
+               <p>And is not this <hi>Rule</hi> likewiſe well obſerved by our <hi>Prela<g ref="char:EOLhyphen"/>tical</hi> men? They dazle the eyes of the meaner, and leſs <hi>judicious</hi> people, with the practices of ſome <hi>noble</hi> and learn<g ref="char:EOLhyphen"/>ed perſons. If any begin to ſtartle, or be troubled at the <hi>matter,</hi> and cannot ſwallow down the <hi>Service-book</hi> and <hi>Po<g ref="char:EOLhyphen"/>piſh Ceremonies</hi> and obſervations, they preſently anſwer, <hi>My
+<pb n="5" facs="tcp:51805:4"/>Lord Biſhop</hi> doth thus and thus: and my Lords <hi>Grace</hi> of <hi>Canterbury</hi> doth thus and thus. The <hi>Knights</hi> of the moſt noble order of the <hi>Garter</hi>-bow <hi>verſus Altare</hi> towards the Al<g ref="char:EOLhyphen"/>tar at their <hi>Inſtalment.</hi> His <hi>Majeſties</hi> Chappel is thus and thus adorned, many honourable <hi>Lords</hi> do obſerve theſe Or<g ref="char:EOLhyphen"/>ders and <hi>Ceremonies.</hi>
+                  <note place="margin">
+                     <hi>A. C.</hi> Speech <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Star-Chamb. p. 47.</note> The learned Doctors of the <hi>Univerſities</hi> are <hi>conformable</hi> thereunto. Such a zealous <hi>Miniſter,</hi> is <hi>Re-or<g ref="char:EOLhyphen"/>dained</hi> by a <hi>Dioceſſan Biſhop,</hi> and now reads the Service-book. Such a <hi>ſtrict Profeſſor</hi> is preſent when the <hi>Service-book</hi> is read, and the Ceremonies practiſed: And what, will you be wiſer than ſo many noble perſons, ſo many reverend <hi>Pre<g ref="char:EOLhyphen"/>lates,</hi> ſo many learned <hi>Doctors,</hi> ſo many eminent famous Preachers and <hi>Profeſſors?</hi> By theſe, and the like pretences, they caſt a miſt before the peoples eyes, and ſo dazle them that they cannot, or will not ſee that <hi>Jeſuitical</hi> deſign that is carried on for <hi>Altering</hi> Religion.</p>
+            </div>
+            <div n="3" type="rule">
+               <head>III. <hi>Rule of the Jeſuit.</hi>
+               </head>
+               <p>His third <hi>Rule</hi> is this, <hi>That Arch-hereticks, and ſuch as are teachers of Hereſie, muſt be baniſhed the Common-wealth at once, if it may ſafely be done,</hi> but if not, <hi>by degre<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s.</hi>
+               </p>
+               <p>It is eaſie to know who are the <hi>Jeſuits</hi> Arch-hereticks (whom they would have baniſhed) even the moſt active, or<g ref="char:EOLhyphen"/>thodox, conſcientious Proteſtants, the <hi>Calviniſts</hi> (as they call them) who have eyes in their heads to diſcern and diſcover their <hi>Antichriſtian</hi> deſigns, and will not be gulled by their ſleights as the <hi>ignorant</hi> people are.</p>
+               <p>For the extirpating and rooting out of theſe, the <hi>Jeſuit</hi> preſcribes a method of twelve or thirteen ſteps, <note place="margin">Contz. Poll. l. <hi>2.</hi> c. <hi>18</hi> ſect. <hi>6.</hi>
+                  </note> for which I refer the Reader to the <hi>Book</hi> it ſelf, ſuch as will not <hi>Bow,</hi> they muſt <hi>Break,</hi> ſuch as will not comply with the <hi>Popiſh</hi> Deſign, muſt be <hi>cruſhed.</hi> According to this Rule the <hi>Prelates</hi> have acted. By them the <hi>Puritan</hi> Preachers have been count<g ref="char:EOLhyphen"/>ed the <hi>Arch-hereticks</hi> and teachers of Hereſie in <hi>England,</hi> though they teach nothing but what is conſonant to <hi>Scrip<g ref="char:EOLhyphen"/>ture,</hi> and the publick Doctrine of the <hi>Church,</hi> yet they are the teachers of <hi>Hereſie.</hi> And being too many to root out at once, it muſt be done by <hi>degrees.</hi> The <hi>Puritan</hi> party muſt be
+<pb n="6" facs="tcp:51805:5"/>divided one from another, and then they may be more ea<g ref="char:EOLhyphen"/>ſily ſuppreſſed. It may be done with more caſe, and leſs noiſe.</p>
+               <p>And therfore firſt they did caſt all thoſe out of the <hi>Miniſter</hi> that were not punctual and full Conformiſts to the old <hi>Cere<g ref="char:EOLhyphen"/>monies.</hi> This was the practiſe of <hi>Prelats.</hi> Next (becauſe there was a company of conformable <hi>Puritans</hi> as themſelves ſtiled them) they procured an <hi>Edict</hi> for Recreations upon the <hi>Lords day;</hi> and this muſt be publiſhed by <hi>Miniſters,</hi> that ſuch as could ſtand under the <hi>Ceremonies</hi> (though groaning under that burthen) might fall and be broken in <hi>peeces</hi> under this: And yet becauſe ſome men ſuſpected of <hi>Puritaniſme,</hi> might have a latitude here beyond their brethren, they had a <hi>third Engine,</hi> and that was the enjoyning now <hi>Ceremonies</hi> and <hi>Adorations,</hi> that if any could ſwallow the <hi>Book,</hi> yet they might diſcover, and caſt them out by ſtraining here. To this they added a <hi>fourth,</hi> Prayers and Proclamations to be read againſt the <hi>Anti-prelatical</hi> party in <hi>Scotland.</hi> And their laſt and greateſt <hi>Engine</hi> which was like the <hi>Powder-plot</hi> againſt the godly <hi>Miniſtry</hi> of the Nation to blow up the Relicks of them at once, was the <hi>Oath</hi> for <hi>Epiſcopacy,</hi> the Oath <hi>Et<g ref="char:EOLhyphen"/>caetera.</hi>
+               </p>
+               <p>By theſe ſucceſſive <hi>Stratagems,</hi> they made account utterly to extirpate thoſe <hi>Arch-hereticks.</hi> As it was ſometimes ſaid to <hi>Elijah,</hi> Him <hi>that eſcapeth the ſword of</hi> Hazael, <hi>ſhall</hi> Jehu <hi>ſlay, and him that eſcapeth the ſword of</hi> Jehu, <hi>ſhall</hi> Eliſha <hi>ſlay,</hi> 1 King. 19. So had they ſaid, <hi>Him that eſcapeth</hi> the dint of the <hi>Ceremonies,</hi> ſhall the Book of <hi>Sports</hi> ſlay, and him that eſcapeth the Book of <hi>Sports,</hi> ſhall the new <hi>Injunctions</hi> ſlay, and him that eſcapeth the new <hi>Injunctions,</hi> ſhall the <hi>Procla<g ref="char:EOLhyphen"/>mations</hi> ſlay; and him that eſcapeth the <hi>Proclamations,</hi> ſhall the <hi>Oath</hi> ſlay. And this by <hi>degrees</hi> and <hi>pauſes,</hi> that they ſhall <hi>neither know, nor ſee</hi> till we <hi>ſlay</hi> them, and <hi>cauſe the work to ceaſe.</hi> If one ſnare do not intangle them, another ſhall: If one <hi>Engine</hi> do not batter down this <hi>party,</hi> another ſhall. The <hi>Prelates</hi> have variety of means and engines to ruine conſci<g ref="char:EOLhyphen"/>entious <hi>Miniſters</hi> and Profeſſors.</p>
+               <pb n="7" facs="tcp:51805:5"/>
+            </div>
+            <div n="4" type="rule">
+               <head>IV. <hi>Rule of the Jeſuit.</hi>
+               </head>
+               <p>The fourth <hi>Rule</hi> is this, <hi>That thoſe which are adverſaries to the true Religion</hi> (which with him is Popery) <hi>be put by their Dig<g ref="char:EOLhyphen"/>nities, places, and offices,</hi> and not <hi>truſted with power or publick Imployment.</hi>
+               </p>
+               <p>I think none is ſuch a ſtranger in <hi>England,</hi> but from his own knowledge can witneſs this, The beſtowing of all <hi>Offices,</hi> the collating of <hi>Benefices,</hi> the election of Maſters and Fel<g ref="char:EOLhyphen"/>lows of <hi>Colledges</hi> in both <hi>
+                     <g ref="char:V">Ʋ</g>niverſities,</hi> who have had the over<g ref="char:EOLhyphen"/>ruling hand in them all, the power of <hi>Mandamus,</hi> but the <hi>Prelats</hi> and their faction? and whom were they conferred upon uſually, but upon men <hi>infamous</hi> for, and impudent in <hi>Arminian</hi> and <hi>Popiſh</hi> opinions? proteſted <hi>Arminianiſme</hi> and bold-faced <hi>Popery</hi> hath been the onely ſpeedy way to Church preferment. Theſe have been, and are ſtill confided in (as to publick truſt and imployment) whilſt the ſoundeſt and moſt <hi>zealous Protestants</hi> are diſcountenanced, by our high <hi>Prelatiſts,</hi> whoſe practice ſuits well with the <hi>Jeſuites</hi> Rule.</p>
+            </div>
+            <div n="5" type="rule">
+               <head>V. <hi>Rule of the Jeſuit.</hi>
+               </head>
+               <p>His fifth <hi>Rule</hi> is, <hi>To make the Proteſtant Religion odious, by laying load upon ſuch tenents as are moſt ſubject to harſheſt con<g ref="char:EOLhyphen"/>ſtructions, and rendring the perſons of thoſe who maintain them contemptible.</hi>
+               </p>
+               <p>In this our <hi>Prelates</hi> have not been ſparing, <hi>Quot plauſtra conviti<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rum,</hi> have they powred out upon ſome Doctrines of our <hi>Religion,</hi> ſpecially the points of <hi>Grace?</hi> The Pulpits of <hi>Italy</hi> and <hi>Rome,</hi> never ſpit more Gall and Venome againſt the Proteſtant <hi>Doctrines</hi> of <hi>Election, Free-grace, Juſtification</hi> by faith, <hi>perſeverance,</hi> touching <hi>Antichriſt,</hi> and the Exp ſi<g ref="char:EOLhyphen"/>tions of the <hi>Proteſtants</hi> on <hi>Daniel</hi> and the <hi>Revelation;</hi> and in a word againſt all thoſe <hi>Doctrines</hi> wherein we do in a ſpecial manner differ from, and are at an irreconcileable enmity with the <hi>Church of Rome.</hi> N ver did the Popiſh <hi>B ſhops</hi> and <hi>Doctors,</hi> as <hi>Eecius, Cocleus, Stapleton, Harding, Bellarmine,</hi> the rayling <hi>Rhemiſts</hi> ſweat more to exaggerate the ſeeming ab<g ref="char:EOLhyphen"/>ſurdities, which <hi>carnal</hi> prejudiced men would draw from
+<pb n="8" facs="tcp:51805:6"/>our <hi>Doctrine,</hi> than many of the Engliſh <hi>Prelatical</hi> Clergy have done. And as for the perſons of the moſt famous <hi>re<g ref="char:EOLhyphen"/>formed</hi> Divines; as <hi>Calvin, Beza, Pareus, Whitaker, Reynolds, Perkins;</hi> It is well enough known how they have been, and are to this day ſleighted and aſperſed by this <hi>ſort</hi> of men.</p>
+            </div>
+            <div n="6" type="rule">
+               <head>VI. <hi>Rule.</hi>
+               </head>
+               <p>The <hi>Jeſuits</hi> ſixth <hi>Rule</hi> is, <hi>To foment the quarrels that are among the</hi> Proteſtants, <hi>and ſtrengthen that party that is neereſt a compliance with</hi> Rome. And, the wretched <hi>Jeſuit</hi> hath the unhappineſs to preſcribe one thing as the proper means of <hi>Englands</hi> Cure. For <hi>who</hi> (ſaith hee) <note n="*" place="margin">Quis enim non facile puri<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>anos in Angli a <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>edigat in ordi<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>em ſi Epiſcopo<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>um approbatio<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>em, ab iis ex<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>orqueat. Contz. ubi ſupra para<g ref="char:EOLhyphen"/>graph. <hi>9.</hi>
+                  </note>
+                  <hi>might not eaſily reduce the Puritans of</hi> England <hi>into Order</hi> (you know what the <hi>Je<g ref="char:EOLhyphen"/>ſuits</hi> reducing into Order is) <hi>if hee could extort from them an Approbation of the</hi> Biſhops. And had not the <hi>Prelates</hi> at<g ref="char:EOLhyphen"/>tempted, and almoſt effected this? They had made us their <hi>Slaves</hi> before, and were they not about to make us ſwear we would be ſo for ever? Certainly, though nothing but <hi>Epiſcopacy</hi> floated in the ſurface of that <hi>Oath,</hi> yet Popery was in the <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, in the <hi>&amp;c,</hi> of it, or reducing the <hi>Puritans</hi> of <hi>England</hi> into Order <hi>ſenſu Pentificio.</hi> And do they not to this day <hi>frequently</hi> ſpeak for, yea ſtrenuouſly indeavour af<g ref="char:EOLhyphen"/>ter, and contend for a general <hi>Conformity</hi> of all ſorts and ſexes, to the <hi>Prelatical</hi> Government, <hi>Service-book,</hi> and Ce<g ref="char:EOLhyphen"/>remonies, yea higher than was formerly attempted? none muſt <hi>buy or ſell,</hi> unleſs hee receive the <hi>mark</hi> of the <hi>Beaſt;</hi> not onely <hi>England</hi> and <hi>Ireland,</hi> but <hi>Scotland,</hi> and the forein <hi>Iſles</hi> muſt bow or break before this <hi>Idol.</hi> Our <hi>Prelates</hi> there<g ref="char:EOLhyphen"/>fore have well obſerved this Rule of the <hi>Jeſuit.</hi>
+               </p>
+            </div>
+            <div n="7" type="rule">
+               <head>VII. <hi>Rule.</hi>
+               </head>
+               <p>His ſeventh <hi>Rule</hi> is this, <hi>That all private</hi> Conventicles, and <hi>publick Meetings</hi> muſt <hi>bee forbidden.</hi>
+               </p>
+               <p>As for private <hi>Conventicles,</hi> you all know that to meet to<g ref="char:EOLhyphen"/>gether to <hi>pray,</hi> or to <hi>confer</hi> (which with them is a Conven<g ref="char:EOLhyphen"/>ticle) is <hi>peccatum irremiſſibile;</hi> a man may at a better rate almoſt anſwer any thing than ſuch a <hi>Meeting;</hi> The terrible <hi>Canons</hi> of our <hi>Prelates</hi> are <hi>mounted</hi> higher, and more deeply
+<pb n="9" facs="tcp:51805:6"/>
+                  <hi>charged</hi> againſt this commendable <hi>practice</hi> of Chriſtians, than againſt <hi>Drunkenneſs, Swearing, Adultery, Sabbath-breaking,</hi> and the greateſt <hi>abominations.</hi> Nor would the reſtleſs ſpi<g ref="char:EOLhyphen"/>rits of theſe <hi>perſecuting Prelates</hi> be quiet, till they had got all ſuch meetings utterly ſuppreſſed; men may meet together at <hi>Cock-fighting,</hi> Horſe-courſing, <hi>Stage-playes,</hi> to ſwear, and <hi>bee drunk,</hi> and unclean; but they muſt not meet to pray and confer together of the <hi>Scriptures,</hi> no, not in thoſe places and <hi>Pariſhes</hi> where the <hi>Miniſters</hi> are no better than <hi>dumb Idols.</hi> Behold here the <hi>Tyranny</hi> of our <hi>Prelates!</hi>
+               </p>
+               <p>And then for <hi>publick</hi> meetings, the antient laudable exer<g ref="char:EOLhyphen"/>ciſe of <hi>Prophecy</hi> (I mean not in that ſenſe, the word is lately taken, for <hi>private</hi> ſpirits to interprer Scripture.) But <hi>prophe<g ref="char:EOLhyphen"/>ſying</hi> by men in office, peculiarly gifted and called to that work; theſe muſt bee baniſhed, <hi>ejected,</hi> ſilenced; the <hi>publick</hi> and moſt frequented <hi>Lectures</hi> blaſted; <hi>publick</hi> faſts by con<g ref="char:EOLhyphen"/>ſent of <hi>Miniſters</hi> (which had of long time been uſed in ma<g ref="char:EOLhyphen"/>ny parts of the Kingdome) are become <hi>piacular;</hi> a Sermon at next <hi>Church</hi> the forbidden <hi>fruit,</hi> when they had none at home, or worſe than <hi>none.</hi> The <hi>Prelates</hi> have been, and ſtill are very diligent, to <hi>ſuppreſs</hi> holy <hi>Aſſemblies,</hi> under the no<g ref="char:EOLhyphen"/>tion of <hi>Conventicles</hi> and ſeditious meetings, whilſt they keep up their <hi>Cathedrals</hi> and Popiſh ſervice.</p>
+            </div>
+            <div n="8" type="rule">
+               <head>VIII. <hi>Rule propounded by the</hi> Jeſuit.</head>
+               <p>The <hi>eighth</hi> means to reduce us to <hi>Popery</hi> is, <hi>By ſeverity of Laws and puniſhments to compel the obſtinate unto duty;</hi> and yet <hi>the rigor</hi> of the <hi>Law</hi> muſt <hi>be ſlowly drawn out, and not a<g ref="char:EOLhyphen"/>gainſt all, but onely ſuch as be moſt dangerous.</hi>
+               </p>
+               <p>Now what ſeverity not onely <hi>ad ſummum Jus,</hi> to the higheſt <hi>Apex</hi> of the Law, but even <hi>ſupra Jus,</hi> beyond the extent and rigor of the <hi>Law</hi> hath been uſed to ſuch as ſtood in the way of their great <hi>deſign,</hi> let the walls of their <hi>High Commiſſion</hi> Court ſpeak; and if that <hi>Babell</hi> were once raiſed up again in <hi>England</hi> (which the Lord in mercy prevent) not onely the ordinary people, but the <hi>Gentry</hi> of this Nation, (if they do but croſs the ambitious deſigns of theſe men) ſhould drink deep of their <hi>cruelty</hi> and rigor.</p>
+               <pb n="10" facs="tcp:51805:7"/>
+               <p>Our <hi>Chronicles</hi> report, that when our Fore-fathers demo<g ref="char:EOLhyphen"/>liſhed the <hi>Abbies,</hi> they found in their Walls, and <hi>Vaults,</hi> and Ponds, heaps of <hi>skulls,</hi> and bones; the <hi>Monuments</hi> of their ſmothered <hi>cruelties,</hi> I doubt not but the Aboliſhers of that High <hi>Commiſſion</hi> have found as manifeſt evidence of their cruel practices: heaps of the <hi>blood</hi> of Innocents, whoſe <hi>skin hath been flead from off them,</hi>
+                  <note place="margin">
+                     <hi>M<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>c.</hi> 3.</note> and <hi>their bones broken,</hi> and <hi>they and their families chopped</hi> in peeces, <hi>as fleſh for the</hi> Cal<g ref="char:EOLhyphen"/>dron: And this fruit they reaped of their ſeverity mannaged with this Art which the <hi>Jeſuit</hi> promiſed. <hi>That though com<g ref="char:EOLhyphen"/>pulſory Reformation</hi> could <hi>do no good</hi> upon <hi>old ſtanders,</hi>
+                  <note n="*" place="margin">Itaque refor<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>atio quae pro<g ref="char:EOLhyphen"/>v<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ctos non ad<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uvat, atatem tamen puerilem Catholicam raddet. Contzen.</note> yet it <hi>would render the younger ſort Catholicks.</hi>
+               </p>
+            </div>
+            <div n="9" type="rule">
+               <head>IX. <hi>Rule of the</hi> Jeſuit.</head>
+               <p>The <hi>ninth</hi> means, and (as hee ſaith) of all the reſt moſt effectual is, <hi>That ſuch as are in authority, and have the pub<g ref="char:EOLhyphen"/>lick mannagement</hi> of <hi>Eccleſiaſtical</hi> Affairs, do <hi>religiouſly pra<g ref="char:EOLhyphen"/>ctiſe and maintain Integrity of life, and purity of</hi> manners. The <hi>Reformation of Religion</hi> (that is, the introducing of <hi>Popery</hi> into a Reformed Church) <hi>will go on very ſlowly, and prove very difficult, unleſs the</hi> Prelates <hi>and Doctors ſhall outſhine the whole</hi> Common-wealth, <hi>not onely in innocency, but in reputa<g ref="char:EOLhyphen"/>tion and fame of integrity.</hi>
+               </p>
+               <p>Now, though this <hi>Rule</hi> be far from the <hi>practice</hi> of moſt of the ſervants, followers, and adherents of the <hi>Prelates</hi> (who for the moſt part are prophane, <hi>Atheiſtical,</hi> and debauched perſons, in whom there is little appearance of morality, and leſs of <hi>Religion</hi>) yet ſome of the <hi>Grand Maſters</hi> of this faction do counterfeit much <hi>devotion</hi> and piety in their outward <hi>Garb,</hi> looks, geſtures, converſation: Or elſe it were not poſſible for them at any time to obtain ſo far up<g ref="char:EOLhyphen"/>on the hearts of <hi>Prince</hi> and <hi>Parliament</hi> (whoſe Intereſts do thwart the ambitious deſigns of the <hi>Prelates</hi>) as to leave the diſpoſing of all <hi>Church</hi> Affairs wholly unto them: If they ſhould not <hi>outwardly</hi> demean themſelves as the onely <hi>Saints</hi> upon earth, as <hi>incarnate</hi> Angels, men wholly com<g ref="char:EOLhyphen"/>poſed
+<pb n="11" facs="tcp:51805:7"/>of <hi>Devotion</hi> to God, <hi>Compaſſion</hi> to his <hi>Church,</hi>
+                  <note n="*" place="margin">Quem ubi vident conſtan<g ref="char:EOLhyphen"/>ter Religions adharentem, non adeò teme<g ref="char:EOLhyphen"/>rarii ſant, ut directe calum<g ref="char:EOLhyphen"/>nieutur &amp; tra<g ref="char:EOLhyphen"/>ducant apud eum Orthodoxam Religionem: ſed occaſiones commodas accipiunt, quibus d<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>plorem turbat<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                        <desc>…</desc>
+                     </gap> pacem Eccleſiae, hortantur principem ad eam reſtituendam, id facile eſſe dicunt auferatur modo contentionis ſtudium, quod diſſidium non ſit in rebus magai momenti ſed exigui ponderis. Vedel. de prud. vet. Eccleſ. l. <hi>2.</hi> c. <hi>5.</hi>
+                  </note> grief for the <hi>Rents</hi> and breaches of it, <hi>Zeal</hi> for the <hi>peace</hi> and good of it; they could not prevail with the <hi>Magiſtrate</hi> to truſt them with ſo much power, ſpecially conſidering how often they have <hi>abuſed</hi> it in this Nation, and <hi>intrenched</hi> upon the <hi>Royal Prerogative,</hi> and the authority of <hi>Parliaments,</hi> as appears by above a hundred inſtances in the <hi>Engliſh Chro<g ref="char:EOLhyphen"/>nickle.</hi>
+               </p>
+               <p>Doubtleſs it ſtands not with reaſon that a <hi>Proteſtant</hi> Prince ſhould knowingly and willingly give way to the <hi>re-eſtabliſh<g ref="char:EOLhyphen"/>ing</hi> of the <hi>Popiſh</hi> Religion, and therein <hi>ipſo facto</hi> diveſt him<g ref="char:EOLhyphen"/>ſelf of his <hi>Supremacy,</hi> and lay his head at the <hi>Popes</hi> feet for him to kick off the Crown from his Royal Brow, with a ſpurn of his diſdainful foot at pleaſure. But why the <hi>Biſhops</hi> (ſpe<g ref="char:EOLhyphen"/>cially ſuch of them as have been obſerved to wiſh well to Popery <hi>ab Incunabulis</hi>) ſhould contrive and carry on ſuch a <hi>Plot;</hi> ſome reaſon may be given; For could they but once obtain this, <hi>That Popery</hi> ſhould <hi>Triumph over the</hi> Reformed <hi>Religion,</hi> then they know that the <hi>Miter</hi> would ſoon <hi>Trample</hi> upon the <hi>Crown and Scepter: Haec enim eſt veritaes, &amp;c.</hi> (ſaith <hi>Bellarmine</hi>
+                  <note n="(a)" place="margin">Bell. de of<g ref="char:EOLhyphen"/>fic. princip. Chriſti L. <hi>1</hi> c. <hi>5.</hi>
+                  </note>) This is <hi>the Truth, whatever cuſtome hath in<g ref="char:EOLhyphen"/>troduced;</hi> That the <hi>Biſhop is the Father, Paſtor and Doctor, as well of the Prince, as of the reſt of the</hi> people. And <hi>according to theſe Appellations the</hi> Prince <hi>ought to be ſubject to his</hi> Biſhop, <hi>and not the</hi> Biſhop <hi>to his Prince. Swarez</hi> ſaith, <note n="(b)" place="margin">Swarez. D<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>fenſ. fid<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i. lib. <hi>3.</hi> cap. <hi>17.</hi> ſſ. <hi>18.</hi> &amp; lib. <hi>4.</hi> c. <hi>17.</hi> ſſ. <hi>16, 17.</hi> cap. <hi>15.</hi> ſſ. <hi>1.</hi>
+                  </note>
+                  <hi>unuſquiſ<g ref="char:EOLhyphen"/>que Rex Subditus eſt, &amp;c.</hi> Every <hi>King is ſubject to his Biſhop in ſpiritualibus, unleſs he be exempted by the</hi> Pope. Would not this be a brave world for our <hi>Biſhops,</hi> and the whole Cler<g ref="char:EOLhyphen"/>gy too, to be <hi>exempted</hi> from the power of <hi>Laws,</hi> and civil Ju<g ref="char:EOLhyphen"/>dicature? <hi>Leges non obligant Clericos, &amp;c.</hi> (ſaith <hi>Swarez</hi> again) The <hi>Law doth not binde the</hi> Clergy <hi>by vertue of any La<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>k</hi> Juriſ<g ref="char:EOLhyphen"/>diction, <hi>neither can</hi> Kings <hi>binde the Clergy by laying any ſpecial</hi> Law <hi>upon them;</hi> And again, <hi>Eccleſiaſtical perſus</hi> are <hi>privi<g ref="char:EOLhyphen"/>ledged
+<pb n="12" facs="tcp:51805:8"/>in</hi> Court, <hi>not onely in caſe of Eccleſiaſtical, but of Civil</hi> Crimes.</p>
+               <p>And therefore <hi>Reader,</hi> though thou canſt ſee no Reaſon why a <hi>Prince</hi> or State profeſſing the <hi>Proteſtant</hi> Religion (ha<g ref="char:EOLhyphen"/>ving ſufficiently ſmarted under the <hi>Popes</hi> and <hi>Prelates</hi> Ty<g ref="char:EOLhyphen"/>ranny) ſhould decline to <hi>Popery;</hi> yet thou mayeſt ſee ſtrong <hi>reaſon</hi> why a proud <hi>Prelacy,</hi> and a corrupt <hi>Clergy</hi> ſhould underhand indeavour to bring it in, and thou mayeſt here take notice of the <hi>method</hi> and waies whereby they may com<g ref="char:EOLhyphen"/>paſs their deſigns, and neither <hi>Prince</hi> nor people <hi>ſhall know nor ſee,</hi> and yet our <hi>Prelatical</hi> Clergy are ſo confident of the truth of their Maxime, <hi>No Biſhop, no King,</hi> That they would make us beleeve that it is as true as the <hi>Goſpel,</hi> where<g ref="char:EOLhyphen"/>as their great deſign is to make the <hi>Scepter</hi> ſubject to the <hi>Miter,</hi> ſo much are they for the <hi>Royal Prerogative,</hi> and the Power of <hi>Parliaments.</hi>
+               </p>
+               <p>It is well enough known (he that runs may read it) that the <hi>Jeſuits</hi> Rules for introducing Popery, have been practi<g ref="char:EOLhyphen"/>ſed by our <hi>Engliſh Prelates</hi> of late years, and ſtill are practiſed by them. Let any ingenious <hi>ſpirit</hi> judge of their intentions by their actions.</p>
+               <p>I have only let you ſee from whoſe <hi>Quiver</hi> they have drawn their <hi>ſhafts;</hi> you may hereby judge of the mark whereat they <hi>aim.</hi> You have ſeen whoſe <hi>Heifer</hi> it is they plowed with: Judge by that of the <hi>ſeed</hi> they would have <hi>ſown.</hi> If they never knew that a <hi>Jeſuit</hi> had delivered theſe <hi>Rules</hi> for the altering of <hi>Religion</hi> in a Chriſtian <hi>ſtate,</hi> they were very <hi>unhappy</hi> in complying ſo exactly with them, when they did not know them: And what can we think but that they were, and are acted by the ſame <hi>Genius,</hi> or the ſame <hi>Angelus informans</hi> that the <hi>Jeſuit</hi> was when he penned them? But if they know (as it is moſt probable they do) that theſe are the <hi>Rules,</hi> this the <hi>Art</hi> delivered by a <hi>Jeſuit</hi> for the ſub<g ref="char:EOLhyphen"/>verting the true <hi>Reformed</hi> Religion, and the introduction of <hi>Popery</hi> again, and yet do knowingly, and <hi>de Induſtria</hi> con<g ref="char:EOLhyphen"/>form to them, and make proof of them, what can we think is their intention, but to alter our <hi>Religion?</hi> But bleſſed bee the Lord who hath ſaid (and will perform it) <hi>That no wea<g ref="char:EOLhyphen"/>pon
+<pb n="13" facs="tcp:51805:8"/>formed againſt his</hi> Jeruſalem <hi>ſhall proſper.</hi>
+               </p>
+               <p>Give me leave (Gentle Reader) here to ſubjoyn the ſay<g ref="char:EOLhyphen"/>ings of ſome wife and learned men, as well <hi>Papiſts</hi> as <hi>Prote<g ref="char:EOLhyphen"/>ſtants</hi> touching the <hi>Grotian Arminian</hi> Deſign carried on by the <hi>Prelats</hi> and their Adherents in <hi>England,</hi> for introducing <hi>Popery</hi> and reducing <hi>England</hi> to the Church of <hi>Rome.</hi>
+               </p>
+            </div>
+            <div type="quotation">
+               <head>A <hi>Jeſuit</hi> writes in a Letter to the Rector at <hi>Bruſſels</hi> thus:</head>
+               <q>
+                  <p>Father <hi>Rector, &amp;c. We have now many ſtrings to our Bows, and have ſtrongly fortified our</hi> Faction, <hi>and have added two</hi> Bul<g ref="char:EOLhyphen"/>warks <hi>more; for when</hi> King J. <hi>lived, we know he was very vio<g ref="char:EOLhyphen"/>lent againſt</hi> Arminianiſme, <hi>and interrupted with his peſtilent wit and deep learning, our ſtrong deſigns in</hi> Holland: <hi>Now we have planted the Sovereign Drug</hi> Arminianiſme, <hi>&amp;c. which we hope will purge the Proteſtants from their hereſie.</hi>
+                  </p>
+               </q>
+               <argument>
+                  <p>This Letter was ſeized in Archbiſhop <hi>Lands</hi> Study, and atteſted againſt him at the Lords Bar.</p>
+               </argument>
+            </div>
+            <div type="quotation">
+               <head>An Engliſh <hi>Jeſuit</hi> in a Book inſcribed, <hi>A Direction</hi> to be ob<g ref="char:EOLhyphen"/>ſerved by <hi>N. N.</hi> printed 1636. p. 20, 22. Thus writes,</head>
+               <q>
+                  <p>To ſpeak truth, what learned judicious man can after unpar<g ref="char:EOLhyphen"/>tial examination embrace <hi>Proteſtantiſme</hi> which now waxeth weary of it ſelf? Its profeſſors declare themſelves to love tem<g ref="char:EOLhyphen"/>per and moderation, allow of many things which ſome years ago were uſually condemned as ſuperſtitious and <hi>Antichriſtian:</hi> And are at this time more unreſolved where to faſten, then in the infan<g ref="char:EOLhyphen"/>cy of their Church: for do not the <hi>Proteſtant</hi> Churches begin to look with another face? Their walls to ſpeak with another lan<g ref="char:EOLhyphen"/>guage? Their <hi>Preachers</hi> to uſe a ſweeter Tone? Their annual publick Tenets in the <hi>Univerſities</hi> to be of another ſtile and matter? Their books to appear with Titles and Arguments which once would have cauſed much ſcandal among th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Brethren? Their <hi>Doctrine</hi> to be altered in many things, and even in thoſe points for which their <hi>Progenitors</hi> forſook the then viſible <hi>Church</hi> of Christ? Their <hi>39 Articles,</hi> the ſumme, the con<g ref="char:EOLhyphen"/>feſſions
+<pb n="14" facs="tcp:51805:9"/>and almost the creed of their faith are patient, yea am<g ref="char:EOLhyphen"/>bitious of ſome ſenſe wherein they may ſeem to be <hi>Catholick?</hi> To alledge wife and children in theſe dayes is but a weak plea to compaſs a Benefice. <hi>Fiery Calviniſme</hi> once a Darling in <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> is at length accounted Hereſie, yea and little leſs than <hi>Treaſon,</hi> men in word and writing willingly uſe the once fearful names of <hi>Prieſts and Altars;</hi> nay if one do but mutter againſt the placing of the <hi>Altar</hi> after the old faſhion, for a warning he ſhall be well warmed with a <hi>Cole</hi> from the <hi>Altar,</hi> &amp;c.</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>That aſpiring <hi>Prelate</hi> Dr. <hi>Laud</hi> in his Letter to Biſhop <hi>Hall</hi> concerning Epiſcopacy, hath theſe words,</head>
+               <q>
+                  <p>You do extreamly well to diſtinguiſh the <hi>Scottiſh</hi> buſineſs from the ſtate of the foreign Churches; but yet to thoſe Churches and their Authors, you are a little more favourable than our caſe will now bear. <hi>What ſhould bee the intendment of this word</hi> Now?</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>Biſhop <hi>Carleton</hi> in his Examination of <hi>Mountagues</hi> Appeal, page 62.</head>
+               <q>
+                  <p>What greater pleaſure <hi>(ſaith he)</hi> can a man procure to the exemies of the truth than to ſpeak evil and odiouſly of thoſe men whoſe ſervice God hath uſed, and made them excellent <hi>Inſtru<g ref="char:EOLhyphen"/>ments</hi> to make the truth known to us? Some take it for a ſign of ſuch as are looking towards <hi>Popery,</hi> when they offer ſuch a ſervice to the <hi>Papiſts,</hi> as to ſpeak evil of them who have been the greateſt enemies to <hi>Popery,</hi> the greateſt <hi>Propagators</hi> of the truth.</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>Dr. <hi>Robert Abbot</hi> Biſhop of <hi>Sarum,</hi> in a Sermon preached before the <hi>Univerſity</hi> of <hi>Oxford,</hi> 1615.</head>
+               <q>
+                  <p>Men under the pretence of truth, and preaching againſt the <hi>Puritans (ſaith he)</hi> ſtrike at the heart and root of faith and <hi>Re<g ref="char:EOLhyphen"/>ligion</hi> now eſtabliſhed among us; This preaching againſt the <hi>Puritans,</hi> was but the practiſe of <hi>Parſons</hi> and <hi>Campians</hi> counſel, when they came into <hi>England</hi> to ſeduce young Students,
+<pb n="15" facs="tcp:51805:9"/>and when many of them were afraid to loſe their places if they ſhould profeſſedly be thus, the counſel they then gave them was, That they ſhould ſpeak freely againſt the <hi>Puritans,</hi> and that ſhould ſuffice: And they cannot pretend that they are accounted <hi>Papiſts,</hi> becauſe they ſpeak againſt the <hi>Puritans,</hi> but becauſe they are <hi>Papiſts</hi> indeed, they ſpeak not againſt them. If they do at any time ſpeak againſt the <hi>Papiſts,</hi> They do beat a little upon the Buſh, and that ſoftly too, for fear of troubling or diſquieting the <hi>Birds</hi> that are in it. They ſpeak of nothing but that in which one <hi>Papiſt</hi> will ſpeak againſt another; as against <hi>Equivocation,</hi> the Popes <hi>temporal</hi> Authority, and the like, and perhaps againſt ſome of their <hi>blaſphemous</hi> ſpeeches; but in the point of <hi>Free-will, Juſtification, Concupiſcence,</hi> being ſin after Baptiſme, <hi>inhe<g ref="char:EOLhyphen"/>rent</hi> Righteouſneſs, <hi>Certainty of ſalvation;</hi> the <hi>Papiſts</hi> beyond the Sea can ſay, They are wholly theirs; and the <hi>Recuſants</hi> at home make their brags of them: And in all things they keep them<g ref="char:EOLhyphen"/>ſelves ſo near the Brink, that upon all occaſions they may ſtop over them.</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>The Univerſity of <hi>Cambridge</hi> in a Letter <hi>March</hi> 8. 1595. to their <hi>Chancellor</hi> ſubſcribed unanimouſly by the Heads of the <hi>Colledges.</hi>
+               </head>
+               <q>
+                  <p>They deſire his Lordſhip to uſe ſome effectual remedy for ſup<g ref="char:EOLhyphen"/>preſſing of <hi>Baroes Arminian</hi> opinions, leſt <hi>(ſay they)</hi> by per<g ref="char:EOLhyphen"/>mitting paſſage to theſe errors, the whole body of <hi>Popery,</hi> ſhould by little and little break in upon us to the overthrow of our <hi>Religion.</hi> And a <hi>little after,</hi> Vouchſafe your Lordſhips aid and advice both to us (wholly conſenting and agreeing in judgement) and all others of the <hi>Univerſity</hi> ſoundly affected: and to the ſuppreſſion in time not only of theſe <hi>Errours,</hi> but even of groſs <hi>Popery,</hi> like by ſuch means in time eaſily to creep in among us, as we finde by late experience it hath dangerouſly begun.</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>Declaration of the Houſe of <hi>Commons</hi> to his late <hi>Majeſty.</hi>
+               </head>
+               <q>
+                  <p>The hearts of your ſubjects are perplexed when with ſorrow
+<pb n="16" facs="tcp:51805:10"/>they behold a daily growth, and ſpred<gap reason="illegible" resp="#MURP" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>g of the faction of the <hi>Arminians;</hi> that being as your Majeſty well knows, but a cun<g ref="char:EOLhyphen"/>ning way to bring in <hi>Popery:</hi> And the profeſſors of thoſe opini<g ref="char:EOLhyphen"/>ons, the common disturbers of the <hi>Proteſtant</hi> Churches, and In<g ref="char:EOLhyphen"/>cendiaries of thoſe <hi>States</hi> in which they have gotten any head, being <hi>Proteſtants</hi> in ſhew, but <hi>Jeſuits</hi> in opinion and practice.</p>
+               </q>
+            </div>
+            <div type="quotation">
+               <head>The Noble Lord <hi>Falkeland</hi> in his excellent ſpeech to the <hi>Houſe</hi> of <hi>Commons,</hi> printed <hi>anno</hi> 1641. pag. 3, 4, 5.6, 7.</head>
+               <q>
+                  <p>
+                     <hi>Maſter Speaker,</hi> hee is a great ſtranger in <hi>Iſrael,</hi> who knows not that this Kingdome hath long laboured under many and great oppreſſions, both in <hi>Religion</hi> and Liberty, and his acquain<g ref="char:EOLhyphen"/>tance here is not great, or his ingenuity leſs, who doth not both know and acknowledge, that a great, if not a principal cauſe of both th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſe, hath been ſome <hi>Biſhops</hi> and their adherents.</p>
+                  <p>
+                     <hi>Mr. Speaker,</hi> A little ſearch will ſerve to finde them to have been the deſtruction of <hi>Unity,</hi> under pretence of <hi>Uniformity,</hi> To have brought in Superſtition and ſcandal under the titles of <hi>reverence and decency,</hi> to have defiled our <hi>Church</hi> by adorn<g ref="char:EOLhyphen"/>ing our <hi>Churches,</hi> to have ſlackned the ſtrictneſs of that <hi>Union</hi> which was formerly between us, and thoſe of our <hi>Religion</hi> beyond the Sea, an action as unpolitick as ungodly.</p>
+                  <p>
+                     <hi>And again p. 7.</hi> As <hi>Sir Thomas Moore</hi> ſaies of the <hi>Ca<g ref="char:EOLhyphen"/>ſuiſts,</hi> their buſineſs was not to keep man from ſinning, but to in<g ref="char:EOLhyphen"/>form them <hi>quam prope ad peccatum ſine peccato liceat acce<g ref="char:EOLhyphen"/>cere;</hi> ſo it ſeemed their work (meaning the Prelates) was to try how much of a <hi>Papiſt</hi> might bee brought in without <hi>Popery,</hi> and to deſtroy as much as they could of the <hi>Goſpel</hi> without bringing themſelves into danger of being deſtroyed by the <hi>Law.</hi>
+                  </p>
+                  <p>
+                     <hi>Mr. Speaker,</hi> to go yet further, ſome of them have ſo indu<g ref="char:EOLhyphen"/>ſtriouſly laboured to deduce themſelves from <hi>Rome,</hi> that they have given great ſuſpition, that in gratitude they deſire to return thither, or at leaſt to meet it half way: ſome have evidently la<g ref="char:EOLhyphen"/>boured to bring in an <hi>Engliſh,</hi> though not a <hi>Roman Popery:</hi> I mean, not the outſide onely, and dreſs of it, but equally abſolute, a blinde dependance of the <hi>people</hi> upon the <hi>Clergy</hi> and of the
+<pb n="17" facs="tcp:51805:10"/>Clergy upon themſelves: <hi>And</hi> have oppoſed <hi>Papacy</hi> beyond the Sea, that they might ſettle one beyond <gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e Water: <hi>Nay,</hi> Common fame is more than ordinarily falſe, if none of them have found a way to reconcile the opinions of <hi>Rome</hi> to the preferments of <hi>Eng<g ref="char:EOLhyphen"/>land;</hi> be ſo abſolutely, directly and cordially <hi>Papiſts,</hi> that it is all that <hi>1500</hi> l. per annum can do to keep them from confeſ<g ref="char:EOLhyphen"/>ſing it.</p>
+                  <p>
+                     <hi>And again p. 9.</hi> Wee ſhall finde of them to have oth kindled and blown the common <hi>fire</hi> of both Nations, to have both ſent and maintained that <hi>Book,</hi> of which the <hi>Author</hi> hath no doubt long ſince wiſhed with <hi>Nero, Utinam neſciſſem literas:</hi> and of which more than one <hi>Kingdome</hi> hath cauſe to wiſh, That when he writ that he had rather burned a <hi>Library,</hi> though of the value of <hi>Prolomies.</hi> Wee ſhall finde them to have been the firſt and principal cauſe of the breach, I will not ſay of, but ſince the <hi>Pacification</hi> at <hi>Barwick:</hi> Wee ſhall finde them to have been the almoſt ſole <hi>Abetters</hi> of my Lord of <hi>Strafford,</hi> whileſt hee was practiſing upon another Kingdome, <hi>that manner of Go<g ref="char:EOLhyphen"/>vernment which hee intended to ſettle in this, where hee committed</hi> ſo many, ſo mighty, and ſo manifest enormities as the like have not been committed by any Governour in any Govern<g ref="char:EOLhyphen"/>ment ſince <hi>Verres</hi> left <hi>Sicily.</hi> And after they had called him o<g ref="char:EOLhyphen"/>ver from being Deputy of <hi>Ireland,</hi> to be in a manner Deputy of <hi>England</hi> (all things here being governed by a <hi>Juntillo,</hi> and that <hi>Juntillo</hi> governed by him) to have aſſiſted him in the giving of ſuch <hi>Counſels,</hi> and the purſuing of ſuch <hi>courſes,</hi> as it is a hard and meaſuring caſt, whether they were more unwiſe, more unjuſt, or more unfortunate, and which had infallibly been our deſtruction, if by the Grace of God their ſhare had not been as ſmall in the ſubtilty of <hi>Serpents</hi> as in the innocence of <hi>Doves.</hi>
+                  </p>
+               </q>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
